@@ -29,7 +29,7 @@ const login = ({
                       // リダイレクト先については後ほど変更します
                       onClick={() =>
                         signIn(provider.id, {
-                          callbackUrl: '/',
+                          callbackUrl: '/articles',
                         })
                       }
                     >
